@@ -10,7 +10,7 @@
   tasks:
   - name: Reset iDRAC
     idrac_reset:
-       idrac_ip:   "{{ idrac_ip }}"
+       idrac_ip:   "{{ 100.80.5.202 }}"
        idrac_user: "{{ idrac_user }}"
        idrac_password:  "{{ idrac_password }}"
 
